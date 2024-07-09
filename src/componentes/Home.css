@@ -1,0 +1,44 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.welcome-message {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #999;
+}
